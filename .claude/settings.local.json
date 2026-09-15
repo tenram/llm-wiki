@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/jorgetena/Claude-Code/llm-wiki/.claude/skills)",
+      "Bash(cp -r /Users/jorgetena/Claude-Code/llm-wiki/.agents/skills/karpathy-llm-wiki /Users/jorgetena/Claude-Code/llm-wiki/.claude/skills/karpathy-llm-wiki)",
+      "Bash(mkdir -p /Users/jorgetena/Claude-Code/llm-wiki/.claude/skills/karpathy-llm-wiki/references)",
+      "Bash(mkdir -p /Users/jorgetena/Claude-Code/llm-wiki/.agents/skills/karpathy-llm-wiki/references)",
+      "Bash(curl -s https://raw.githubusercontent.com/Astro-Han/karpathy-llm-wiki/main/references/__TRACKED_VAR__.md -o /Users/jorgetena/Claude-Code/llm-wiki/.claude/skills/karpathy-llm-wiki/references/__TRACKED_VAR__.md)",
+      "Bash(cp /Users/jorgetena/Claude-Code/llm-wiki/.claude/skills/karpathy-llm-wiki/references/__TRACKED_VAR__.md /Users/jorgetena/Claude-Code/llm-wiki/.agents/skills/karpathy-llm-wiki/references/__TRACKED_VAR__.md)",
+      "WebFetch(domain:github.com)",
+      "Bash(grep -l \"statewright\" /Users/jorgetena/Claude-Code/llm-wiki/raw/ai-agent-harnesses/*.md)",
+      "WebFetch(domain:www.ryanwaliany.com)",
+      "WebFetch(domain:lobehub.com)",
+      "WebFetch(domain:pub.towardsai.net)",
+      "WebFetch(domain:www.zerotier.com)",
+      "WebFetch(domain:mcpmarket.com)",
+      "WebFetch(domain:www.town.com)",
+      "WebFetch(domain:hermes-agent.nousresearch.com)",
+      "WebFetch(domain:www.mindstudio.ai)",
+      "WebFetch(domain:market.lobehub.com)",
+      "WebFetch(domain:medium.com)",
+      "WebSearch",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://market.lobehub.com/s/skills/lambdatest-agent-skills-puppeteer-skill\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://mcpmarket.com/tools/skills/github-gist-uploader\")",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{size_download}\\\\n\" -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://market.lobehub.com/s/skills/lambdatest-agent-skills-puppeteer-skill\")",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{size_download}\\\\n\" -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://mcpmarket.com/tools/skills/github-gist-uploader\")",
+      "Bash(curl -skL -o /tmp/lobehub.html -w \"%{http_code} %{size_download}\\\\n\" -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://market.lobehub.com/s/skills/lambdatest-agent-skills-puppeteer-skill\")",
+      "Bash(curl -skL -o /tmp/gist.html -w \"%{http_code} %{size_download}\\\\n\" -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://mcpmarket.com/tools/skills/github-gist-uploader\")",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(python3:*)"
+    ]
+  }
+}

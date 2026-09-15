@@ -1,0 +1,11 @@
+# FaceForensics++: Learning to Detect Manipulated Facial Images
+
+> Source: https://justusthies.github.io/posts/faceforensics++/ ; https://github.com/ondyari/FaceForensics/tree/master/dataset/FaceShifter
+> Collected: 2026-07-11
+> Published: 2019 (ICCV 2019)
+
+Authored by Andreas Rössler, Davide Cozzolino, Luisa Verdoliva, Christian Riess, Justus Thies, and Matthias Nießner; published at ICCV 2019. Addresses whether state-of-the-art facial manipulations are realistic enough to fool viewers and how reliably they can be automatically detected. Proposes an automated benchmark for facial-manipulation detection built on four prominent forgery techniques: DeepFakes, Face2Face, FaceSwap, and NeuralTextures. The dataset contains over 1.8 million manipulated images, described as "over an order of magnitude larger than comparable, publicly available, forgery datasets." Also hosts a separate DeepFakes Detection Dataset donated by Google/Jigsaw, plus a hidden test set for benchmark evaluation. Full dataset access requires a Google form. Central claim: incorporating domain-specific knowledge into detection models improves forgery-detection accuracy to "unprecedented" levels, even under strong video compression, exceeding human detection capability. Resources: GitHub repo, an online benchmark leaderboard (kaldir.vc.in.tum.de/faceforensics_benchmark/), contact email (faceforensics@googlegroups.com), paper, video, BibTeX citation.
+
+## FaceShifter subset
+
+The `dataset/FaceShifter` subdirectory of the FaceForensics repo covers the FaceShifter manipulation method within the FaceForensics++ collection. All original videos in this subset "have been manipulated by the authors [of FaceShifter] and shared with us," meaning the FaceShifter creators produced the manipulated content and contributed it to FaceForensics rather than the FaceForensics team generating it independently. Includes an example animated GIF and a table image (table4_faceshifter.png) reproducing detection-accuracy benchmarks from the FaceShifter paper's appendix, showing detection-model performance when trained/tested on FaceShifter-manipulated videos under consistent settings. Technical details on the manipulation technique itself point to the external FaceShifter project page at lingzhili.com/FaceShifterPage/. The FaceForensics repo overall has 2.7k stars, 590 forks.
