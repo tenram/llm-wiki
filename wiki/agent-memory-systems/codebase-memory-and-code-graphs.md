@@ -27,3 +27,4 @@ Both tools are 100% local, SQLite-backed, zero-API-key, and target the same agen
 
 - [HybridRAG System](hybridrag-system.md)
 - [Open Brain (OB1)](ob1.md)
+- [Graphify](graphify.md)

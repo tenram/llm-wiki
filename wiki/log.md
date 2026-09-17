@@ -155,3 +155,17 @@
 ## [2026-08-28] ingest | Agent Reach
 
 ## [2026-08-28] ingest | Mattermost
+
+## [2026-09-17] ingest | Graphify
+- Updated: Codebase Memory and Code Graphs (see-also cross-link added in article)
+
+## [2026-09-17] ingest | Chatterbox TTS
+
+## [2026-09-17] ingest | LlamaIndex (run-llama)
+
+## [2026-09-17] ingest | ASD-STE100 Skill
+
+## [2026-09-17] ingest | Ponytail
+
+## [2026-09-17] ingest | Multica
+- Updated: Multica

@@ -22,12 +22,13 @@ Frameworks and essays on the scaffolding (tools, state control, orchestration) a
 | [Life-Harness](wiki/ai-agent-harnesses/life-harness.md) | Training-free runtime harness adaptation improving frozen-model agent performance | 2026-07-11 |
 | [Statewright](wiki/ai-agent-harnesses/statewright.md) | State-machine tool restriction per workflow phase, enforced via Rust engine and MCP gateway | 2026-07-11 |
 | [Firstmate](wiki/ai-agent-harnesses/firstmate.md) | Single-agent-to-many-crewmate orchestration in isolated git worktrees | 2026-07-11 |
-| [Multica](wiki/ai-agent-harnesses/multica.md) | Managed agents platform treating AI coding agents as team members | 2026-07-11 |
+| [Multica](wiki/ai-agent-harnesses/multica.md) | Managed agents platform treating AI coding agents as team members, driving 26 agent CLIs | 2026-09-17 |
 | [ECC](wiki/ai-agent-harnesses/ecc.md) | Cross-harness "operating system" bundling skills, memory optimization, and security scanning | 2026-07-11 |
 | [The Software Factory](wiki/ai-agent-harnesses/software-factory.md) | Playbook for rebuilding SaaS to feature parity via layered agent context, spec-driven builds, and the SPEAR workflow | 2026-07-21 |
 | [OpenClaw](wiki/ai-agent-harnesses/openclaw.md) | Self-hosted multi-channel agent framework configured entirely through editable Markdown workspace files | 2026-07-31 |
 | [GNHF](wiki/ai-agent-harnesses/gnhf.md) | Overnight autonomous agent orchestrator: committed iterations, usage-limit-aware retries, worktree concurrency | 2026-08-24 |
 | [Munder Difflin](wiki/ai-agent-harnesses/munder-difflin.md) | Electron multi-agent office harness wrapping terminal CLIs as avatar agents coordinated by a GOD orchestrator over a file-based hive | 2026-08-24 |
+| [Ponytail](wiki/ai-agent-harnesses/ponytail.md) | Cross-harness skill enforcing a laziness ladder (stdlib/native/reuse before new code); benchmarked ~54% less code with 100% safety | 2026-09-17 |
 
 ## claude-code-ecosystem
 
@@ -46,6 +47,7 @@ Skills, plugins, and workflow integrations built on or around Claude Code.
 | [Awesome Claude Skills](wiki/claude-code-ecosystem/awesome-claude-skills.md) | 13-category curated list of third-party Claude Skills across dev, data, science, and media domains | 2026-07-21 |
 | [Self-Improving AI Skills](wiki/claude-code-ecosystem/self-improving-ai-skills.md) | Pattern for compounding skill quality via a learnings.md feedback loop, without model fine-tuning | 2026-07-31 |
 | [Claude Agent SDK: Subagents](wiki/claude-code-ecosystem/agent-sdk-subagents.md) | Python/TypeScript library exposing Claude Code's agent loop, tools, and subagent spawning outside the CLI | 2026-07-31 |
+| [ASD-STE100 Skill](wiki/claude-code-ecosystem/asd-ste100-skill.md) | Aerospace controlled-language (Simplified Technical English) repurposed as a Claude Code skill for disambiguating agent-facing English | 2026-09-17 |
 
 ## antigravity-ecosystem
 
@@ -67,6 +69,7 @@ Persistent memory and retrieval architectures for AI agents.
 | [HybridRAG System](wiki/agent-memory-systems/hybridrag-system.md) | Combines vector similarity search with knowledge-graph retrieval in one RAG pipeline, across three implementations plus a store-comparison and a live-update construction pattern | 2026-07-31 |
 | [Hermes Agent](wiki/agent-memory-systems/hermes-agent.md) | Nous Research's open-source multi-platform desktop agent with unified persistent memory and sandboxed subagents | 2026-07-21 |
 | [Town](wiki/agent-memory-systems/town.md) | Commercial personal-assistant SaaS pairing users with a learning "Townie" for recurring work automation | 2026-07-21 |
+| [Graphify](wiki/agent-memory-systems/graphify.md) | Skill/CLI turning a whole project (code, docs, PDFs, images, video) into a local tree-sitter knowledge graph with explained EXTRACTED/INFERRED edges and MCP serving | 2026-09-17 |
 
 ## browser-and-mcp-tooling
 
@@ -118,6 +121,7 @@ Tools for converting documents into structured, LLM-usable formats.
 | [marker-pdf](wiki/document-processing/marker-pdf.md) | Fast PDF/DOCX/PPTX-to-Markdown/JSON converter with optional LLM-boosted accuracy | 2026-07-31 |
 | [Docling](wiki/document-processing/docling.md) | IBM Research's broad-format (incl. audio/video/email/financial docs) document-to-structured-data framework, MIT licensed | 2026-07-31 |
 | [newspaper](wiki/document-processing/newspaper.md) | Python article extractor for page text, metadata, authors, and images | 2026-08-18 |
+| [LlamaIndex (run-llama)](wiki/document-processing/llamaindex.md) | Document processing platform for AI: cloud LlamaParse OCR/extract plus open-source LiteParse (Rust), LlamaAgents, and SDKs | 2026-09-17 |
 
 ## research-and-training
 
@@ -195,3 +199,11 @@ Gradient boosting library and applied classification patterns.
 |---------|---------|---------|
 | [XGBoost](wiki/machine-learning/xgboost.md) | Optimized distributed gradient boosting library (GBDT) portable from laptop to Spark/Kubernetes scale | 2026-08-24 |
 | [XGBoost Imbalanced Classification Pattern](wiki/machine-learning/xgboost-imbalanced-classification-pattern.md) | Bank-marketing worked pattern: class weighting and resampling reaching 0.84 recall on imbalanced positives | 2026-08-24 |
+
+## speech-synthesis
+
+Open-source text-to-speech models and voice synthesis tooling.
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [Chatterbox TTS](wiki/speech-synthesis/chatterbox-tts.md) | Resemble AI's open-source TTS family (110M Nano to 500M Multilingual V3), single-step decoder, paralinguistic tags, Perth watermarking | 2026-09-17 |
