@@ -57,3 +57,5 @@ Bibek Poudel's summary of the pattern restates the spec in blunter, activation-f
 - [article-writing-skills](article-writing-skills.md)
 - [Agent Skills Engineering Workflows](agent-skills-engineering-workflows.md)
 - [Awesome Claude Skills](awesome-claude-skills.md)
+- [ASD-STE100 Skill](asd-ste100-skill.md)
+- [i-have-adhd](i-have-adhd.md)

@@ -1,15 +1,15 @@
 # Docling
 
 > Sources: IBM Research Zurich / Docling project, Unknown date
-> Raw: [Docling](../../raw/document-processing/docling.md)
+> Raw: [Docling, 2026-09-30 snapshot](../../raw/document-processing/2026-09-30-docling.md); [Docling](../../raw/document-processing/docling.md)
 
 ## Overview
 
-An open-source document processing framework converting messy, mixed-format documents into structured data for downstream AI/RAG pipelines. Compared to [marker-pdf](marker-pdf.md), Docling covers a much broader format surface (including audio, video, email, and financial/patent formats) and is backed by IBM Research rather than a single maintainer.
+An open-source document processing framework converting messy, mixed-format documents into structured data for downstream AI/RAG pipelines. Compared to [marker-pdf](marker-pdf.md), Docling covers a much broader format surface (including audio, video, email, and financial/patent formats) and is backed by IBM Research under the LF AI & Data Foundation.
 
 ## Capabilities
 
-Layout analysis, reading-order detection, table structure recognition, formula-to-LaTeX conversion, code block detection, and image classification feed a unified `DoclingDocument` representation, exportable to Markdown, HTML, JSON, DocLang, or DocTags. OCR handles scanned pages. Native integrations exist for LangChain, LlamaIndex, Crew AI, and Haystack, and it supports fully local/offline processing plus visual-language-model-assisted parsing (e.g. GraniteDocling).
+Layout analysis, reading-order detection, table structure recognition, formula-to-LaTeX conversion, code block detection, and image classification feed a unified `DoclingDocument` representation, exportable to Markdown, HTML, JSON, DocLang, or DocTags. OCR handles scanned pages. Native integrations exist for LangChain, LlamaIndex, Crew AI, and Haystack. It supports fully local/offline processing, visual-language-model-assisted parsing such as GraniteDocling, an MCP server, and an API service. Recent README-listed formats include video with ASR and keyframes, ODF, XBRL, email, EPUB, Apple Pages/Keynote, and chart understanding.
 
 ## Format Coverage vs. marker-pdf
 

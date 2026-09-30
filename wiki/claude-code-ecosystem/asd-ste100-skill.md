@@ -1,7 +1,7 @@
 # ASD-STE100 Skill
 
 > Sources: danyuchn, Unknown date
-> Raw: [ASD-STE100 Skill](../../raw/claude-code-ecosystem/2026-09-17-asd-ste100-skill.md)
+> Raw: [ASD-STE100 Skill, 2026-09-30 snapshot](../../raw/claude-code-ecosystem/2026-09-30-asd-ste100-skill.md); [ASD-STE100 Skill](../../raw/claude-code-ecosystem/2026-09-17-asd-ste100-skill.md)
 
 ## Overview
 
@@ -13,7 +13,7 @@ The same failure mode motivates both audiences: a misread instruction can kill p
 
 ## What it does
 
-Two modes: **Strict** (procedures, error messages, tool descriptions) and **STE-flavored** (READMEs, PR descriptions, explanatory prose — sentence discipline without the fixed-vocabulary lockdown). The skill flags rule violations sentence-by-sentence (ambiguity, complex tenses, passive voice with unclear actor, multi-instruction sentences, oversized noun clusters, dropped words, over-length sentences, phrasal verbs, nominalizations, semicolons, hedge stacks, marketing adjectives) and rewrites each without dropping any fact, condition, or scope qualifier. A deterministic `ste-lint.py` linter checks structural patterns only; the ASD ~900-word approved dictionary is not reproduced because the standard is not free to redistribute.
+Two modes: **Strict** (procedures, error messages, tool descriptions) and **STE-flavored** (READMEs, PR descriptions, explanatory prose — sentence discipline without the fixed-vocabulary lockdown). The skill flags rule violations sentence-by-sentence (ambiguity, complex tenses, passive voice with unclear actor, multi-instruction sentences, oversized noun clusters, dropped words, over-length sentences, phrasal verbs, nominalizations, semicolons, hedge stacks, marketing adjectives) and rewrites each without dropping any fact, condition, or scope qualifier. A deterministic `ste-lint.py` linter checks structural patterns only; the ASD ~900-word approved dictionary is not reproduced because the standard is not free to redistribute. The repository also documents that the linter does not prove semantic preservation or requirement strength.
 
 ## Scope
 

@@ -26,3 +26,5 @@ Cited failure modes: scope creep from imprecise rules, inconsistency from missin
 - [Awesome Harness Engineering](awesome-harness-engineering.md)
 - [Statewright](statewright.md)
 - [RightMemory](../agent-memory-systems/rightmemory.md)
+- [Superset](superset.md)
+- [Caveman](caveman.md)

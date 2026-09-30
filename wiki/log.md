@@ -169,3 +169,12 @@
 
 ## [2026-09-17] ingest | Multica
 - Updated: Multica
+
+## [2026-09-30] ingest | Superset, Caveman, RecallMax, PyMuPDF, i-have-adhd, Docling, and ASD-STE100 Skill
+- Updated: Docling
+- Updated: ASD-STE100 Skill
+- Updated: marker-pdf
+- Updated: Harness Design Principles
+- Updated: Awesome Harness Engineering
+- Updated: HybridRAG: Combining Knowledge Graphs and Vector Retrieval
+- Updated: Anthropic Agent Skills

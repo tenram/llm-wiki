@@ -14,3 +14,4 @@ Modular pipeline of Providers, Builders, Processors, and Renderers exposed via t
 ## See Also
 
 - [Docling](docling.md) — IBM Research's broader-format alternative (adds audio/video/email/financial docs), MIT-licensed.
+- [PyMuPDF](pymupdf.md) — focused MuPDF-based PDF engine with local LLM-ready extraction.

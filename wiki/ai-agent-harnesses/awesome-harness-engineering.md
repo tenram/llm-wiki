@@ -21,3 +21,5 @@ Featured resources span vendor guidance (OpenAI's Codex harness docs, Anthropic'
 - [Life-Harness](life-harness.md)
 - [The Software Factory](software-factory.md)
 - [OpenClaw](openclaw.md)
+- [Superset](superset.md)
+- [Caveman](caveman.md)

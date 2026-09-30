@@ -31,3 +31,4 @@ The `Hybrid_rag_simulation` repository reinforces the pattern as a working proto
 
 - [OB1](ob1.md)
 - [RightMemory](rightmemory.md)
+- [RecallMax](recallmax.md) — context compression rather than graph-plus-vector retrieval.
