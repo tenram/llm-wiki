@@ -19,3 +19,4 @@ Skills are grouped into 13 categories: Document Skills (Word/PDF/PPTX/XLSX), Dev
 
 - [Anthropic Agent Skills](anthropics-skills.md) — the underlying `SKILL.md` format spec this and other third-party lists build on.
 - [Agent Skills Engineering Workflows](agent-skills-engineering-workflows.md) — a specific, opinionated 24-skill collection (vs. this repo's broad, general-purpose aggregation).
+- [Awesome Claude Code](awesome-claude-code.md) — a broader awesome list covering the whole Claude Code ecosystem (skills, agents, status lines, tooling, plugins), not only skills.

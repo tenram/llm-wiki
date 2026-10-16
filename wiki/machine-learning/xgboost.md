@@ -14,3 +14,4 @@ First-class Python, R, and JVM bindings; Optuna integration for hyperparameter s
 ## See Also
 
 - [XGBoost Imbalanced Classification Pattern](xgboost-imbalanced-classification-pattern.md)
+- [XGBoosting Dataset Catalog](xgboost-datasets.md)

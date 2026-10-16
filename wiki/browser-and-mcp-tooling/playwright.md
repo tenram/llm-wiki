@@ -14,5 +14,6 @@ Auto-waiting with retryable assertions, per-test isolated browser contexts, resi
 ## See Also
 
 - [Playwright MCP](playwright-mcp.md)
+- [Puppeteer MCP Server (Python)](mcp-server-puppeteer-py.md) — community Python MCP server built on Playwright.
 - [LambdaTest Puppeteer Skill](lambdatest-puppeteer-skill.md)
 - [Stealth Browser Automation](stealth-browser-automation.md)

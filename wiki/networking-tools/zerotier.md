@@ -24,3 +24,7 @@ Feature depth scales with tier: network administration, premium relay support, a
 ## Target Use Cases
 
 Personal/hobbyist and smart-home networking at the free tier, SMB VPN/SD-WAN at Essential, large multi-tenant deployments at Scale, regulated enterprises at Enterprise, and defense/government/mission-critical infrastructure at Quantum.
+
+## See Also
+
+- [pfSense](pfsense.md) — FreeBSD-based network firewall distribution; complements ZeroTier's SDN layer with filtering and routing.

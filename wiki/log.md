@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-10-10] ingest | Self-Hosted Budgeting and Personal Finance Apps
+
+## [2026-10-10] ingest | Hermes Skills Ecosystem
+- Updated: Hermes Agent (Nous Research)
+
+## [2026-10-10] ingest | Agent Replicate
+
+## [2026-10-10] ingest | cmux
+
 ## [2026-07-11] ingest | LLM Wiki Pattern
 
 ## [2026-07-11] ingest | Awesome Harness Engineering
@@ -178,3 +187,59 @@
 - Updated: Awesome Harness Engineering
 - Updated: HybridRAG: Combining Knowledge Graphs and Vector Retrieval
 - Updated: Anthropic Agent Skills
+
+## [2026-10-01] ingest | ONNX Model Zoo
+
+## [2026-10-05] ingest | ASD-STE100 Skill, CrewAI, ROCm Whisper API, faster-whisper on AMD Strix Halo, OpenAI Decisions API, VibeVoice-ASR with ROCm and Docker, Fake News Detection Multi-Agent System, Microsoft GUIDE Cybersecurity Incident Classification, Fact Check Skill, and Fact Checker Skill Listing
+
+## [2026-10-05] ingest | Document Similarity Methods, XGBoosting Dataset Catalog, and Mermaid Live Editor
+- Updated: XGBoost
+
+## [2026-10-08] ingest | DDC Skills for AI Agents in Construction
+
+## [2026-10-13] ingest | Gotenberg
+- Updated: marker-pdf (see-also cross-link added)
+- Updated: Docling (see-also cross-link added)
+
+## [2026-10-13] ingest | pfSense
+- Updated: ZeroTier (see-also cross-link added)
+
+## [2026-10-13] ingest | Frappe HR
+
+## [2026-10-13] ingest | REA: Reverse Engineer Anything
+- Updated: Model Context Protocol (MCP) Overview (cross-topic reference added)
+
+## [2026-10-13] ingest | Evolution API
+
+## [2026-10-13] ingest | WAHA — WhatsApp HTTP API
+
+## [2026-10-13] ingest | Playwright MCP (official docs)
+- Updated: Playwright MCP (merge; key features + tool catalog)
+- Updated: Playwright (see-also cross-link added)
+- Updated: Model Context Protocol (MCP) Overview (see-also cross-links added)
+
+## [2026-10-13] ingest | Puppeteer MCP Server (Python)
+
+## [2026-10-13] ingest | Anysite MCP
+- Updated: Firecrawl (see-also cross-link added)
+- Updated: Model Context Protocol (MCP) Overview (see-also cross-links added)
+
+## [2026-10-13] ingest | AnythingMCP (HelpCode)
+- Updated: Model Context Protocol (MCP) Overview (see-also cross-links added)
+
+## [2026-10-13] ingest | Firecrawl (2026-10-13 README snapshot)
+- Updated: Firecrawl (merge; Agent endpoint, reliability claims)
+
+## [2026-10-13] ingest | JS Reverse MCP
+- Updated: REA: Reverse Engineer Anything (see-also cross-link added)
+- Updated: Stealth Browser Automation (see-also cross-link added)
+
+## [2026-10-13] ingest | DevCDP
+
+## [2026-10-16] ingest | Compass, copyparty, Felix Rieseberg, Agent Skills Platform, Data Privacy Stack (Presidio), Awesome Claude Code, AnythingMCP (HelpCode), Hermes Incident Commander, and FastMCP
+- Updated: AnythingMCP (HelpCode) (merge; 474 connectors, security/governance, knowledge graph, FAQ)
+- Updated: Model Context Protocol (MCP) Overview (see-also cross-links added: FastMCP)
+- Updated: Anthropic Agent Skills (see-also cross-links added)
+- Updated: Awesome Claude Skills (see-also cross-link added)
+- Updated: Hermes Skills Ecosystem (see-also cross-link added)
+- Updated: Hermes Agent (Nous Research) (see-also cross-link added)

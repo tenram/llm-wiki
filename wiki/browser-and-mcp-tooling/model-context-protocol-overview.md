@@ -11,7 +11,7 @@ An open standard for connecting AI applications to external systems: data source
 
 For developers: less integration work per external system. For AI applications/agents: access to a growing ecosystem of pre-built connectors. For end users: assistants that can actually reach their data and take action, not just talk about it. Supported clients cited include Claude, ChatGPT, VS Code, Cursor, and MCPJam.
 
-Concrete reference servers and SDKs are catalogued in [MCP Reference Servers](mcp-reference-servers.md); browser automation over MCP is implemented by [Playwright MCP](playwright-mcp.md). Multi-model code review over MCP is implemented by [Deliberation](deliberation-mcp.md).
+Concrete reference servers and SDKs are catalogued in [MCP Reference Servers](mcp-reference-servers.md); browser automation over MCP is implemented by [Playwright MCP](playwright-mcp.md). Multi-model code review over MCP is implemented by [Deliberation](deliberation-mcp.md). Agent-driven reverse engineering over MCP is implemented by [REA: Reverse Engineer Anything](../reverse-engineering/rea.md). Structured web-data querying over MCP is implemented by [Anysite MCP](anysite-mcp.md), and turning arbitrary business APIs (REST/OpenAPI/SOAP/GraphQL/OData/SQL) into MCP tools by [AnythingMCP (HelpCode)](helpcode-anythingmcp.md). The application-layer framework most servers are built with is [FastMCP](fastmcp.md).
 
 ## Getting Started (2026-07-28 docs)
 
@@ -26,3 +26,7 @@ On Claude Desktop specifically, MCP servers install as single-click "desktop ext
 - [MCP Reference Servers](mcp-reference-servers.md)
 - [Playwright MCP](playwright-mcp.md)
 - [Deliberation](deliberation-mcp.md)
+- [REA: Reverse Engineer Anything](../reverse-engineering/rea.md)
+- [Anysite MCP](anysite-mcp.md)
+- [AnythingMCP (HelpCode)](helpcode-anythingmcp.md)
+- [FastMCP](fastmcp.md)

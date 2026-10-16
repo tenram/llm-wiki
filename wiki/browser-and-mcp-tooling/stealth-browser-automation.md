@@ -12,3 +12,7 @@ These browser-automation helpers reduce detectable automation fingerprints for P
 They fit login, scraping, and QA flows that need to behave more like a human browser session.
 
 Use them only where site rules and policy allow automation.
+
+## See Also
+
+- [JS Reverse MCP](../reverse-engineering/js-reverse-mcp.md) — agent reverse-engineering MCP whose anti-detection extends stealth to the protocol layer (dedicated Patchright fork) and the source layer (CloakBrowser binary).

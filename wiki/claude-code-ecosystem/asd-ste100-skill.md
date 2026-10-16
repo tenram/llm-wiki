@@ -1,6 +1,6 @@
 # ASD-STE100 Skill
 
-> Sources: danyuchn, Unknown date
+> Sources: danyuchn, 2026-10-05
 > Raw: [ASD-STE100 Skill, 2026-09-30 snapshot](../../raw/claude-code-ecosystem/2026-09-30-asd-ste100-skill.md); [ASD-STE100 Skill](../../raw/claude-code-ecosystem/2026-09-17-asd-ste100-skill.md)
 
 ## Overview

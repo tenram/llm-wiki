@@ -26,3 +26,4 @@ Both target the same problem — getting documents into an AI-consumable structu
 ## See Also
 
 - [marker-pdf](marker-pdf.md)
+- [Gotenberg](gotenberg.md) — Docker-based document-to-PDF conversion service API.

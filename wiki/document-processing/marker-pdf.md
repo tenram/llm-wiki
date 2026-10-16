@@ -15,3 +15,4 @@ Modular pipeline of Providers, Builders, Processors, and Renderers exposed via t
 
 - [Docling](docling.md) — IBM Research's broader-format alternative (adds audio/video/email/financial docs), MIT-licensed.
 - [PyMuPDF](pymupdf.md) — focused MuPDF-based PDF engine with local LLM-ready extraction.
+- [Gotenberg](gotenberg.md) — Docker-based document-to-PDF conversion service API, a service complement to marker-pdf's library approach.

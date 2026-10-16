@@ -1,7 +1,7 @@
 # Hermes Agent (Nous Research)
 
-> Sources: Nous Research, Unknown date
-> Raw: [Hermes Agent: Overview](../../raw/agent-memory-systems/2026-07-21-hermes-agent-nousresearch.md)
+> Sources: Nous Research, Unknown date; Nous Research, 2026-10-10; ZeroPointRepo, 2026-10-10
+> Raw: [Hermes Agent: Overview](../../raw/agent-memory-systems/2026-07-21-hermes-agent-nousresearch.md); [Hermes optional skills](../../raw/ai-agent-harnesses/2026-10-10-hermes-optional-skills.md); [Bundled Skills Catalog](../../raw/ai-agent-harnesses/2026-10-10-hermes-skills-catalog.md); [Awesome Hermes Skills](../../raw/ai-agent-harnesses/2026-10-10-awesome-hermes-skills.md)
 
 ## Overview
 
@@ -20,6 +20,11 @@ Hermes Agent is an open-source (MIT), self-hosted desktop AI agent from Nous Res
 
 Maintained by Nous Research and integrated with their Nous Portal subscription, which provides access to 300+ AI models and monthly usage credits for running the agent.
 
+## Skills Ecosystem
+
+Hermes separates built-in skills from official optional skills and community extensions. The official optional catalog ships in the repository but is not activated by default; the community directory adds production, beta, and experimental skills, plugins, profiles, memory providers, and surfaces. See [Hermes Skills Ecosystem](../ai-agent-harnesses/hermes-skills-ecosystem.md) for the distribution and safety model.
+
 ## See Also
 
 - [OpenClaw](../ai-agent-harnesses/openclaw.md) — a comparable open-source, multi-platform, persistent-memory agent framework; Hermes Agent's subagent/sandbox model is more elaborate, OpenClaw's Markdown-workspace configuration is more transparent/editable.
+- [Hermes Incident Commander](../ai-agent-harnesses/hermes-incident-commander.md) — an autonomous SRE agent built on Hermes Agent that exercises its memory, skill auto-creation, cron, gateway, subagents, and MCP features.
