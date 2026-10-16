@@ -1,0 +1,8 @@
+# Per-task scratch docs (overwritten each ingest run)
+Plan.md
+Progress.md
+Decision-Log.md
+
+# Python bytecode
+__pycache__/
+*.pyc
