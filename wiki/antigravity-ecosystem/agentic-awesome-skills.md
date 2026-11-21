@@ -1,15 +1,15 @@
 # Agentic Awesome Skills
 
-> Sources: sickn33, Unknown date
-> Raw: [AAS Core — Agentic Awesome Skills](../../raw/antigravity-ecosystem/2026-08-14-agentic-awesome-skills.md)
+> Sources: sickn33, Unknown date; benjaminasterA, 2026-11-10
+> Raw: [AAS Core — Agentic Awesome Skills](../../raw/antigravity-ecosystem/2026-08-14-agentic-awesome-skills.md); [Antigravity Awesome Skills README (2026-11-10 snapshot)](../../raw/antigravity-ecosystem/2026-11-10-antigravity-awesome-skills.md)
 
 ## Overview
 
-`sickn33/agentic-awesome-skills` is a large agent-first skills catalog centered on AAS Core, a local control plane for discovering skills, validating exact stacks, previewing immutable plans, and keeping evidence reviewable before any target change.
+Agentic Awesome Skills and the similarly named `benjaminasterA/antigravity-awesome-skills` are large agent-first skills catalogs for cross-tool coding assistants. The new snapshot advertises 889+ skills, universal `SKILL.md` compatibility, bundles, workflows, validation, and installers for Claude Code, Gemini CLI, Codex CLI, Cursor, Copilot, OpenCode, Antigravity, and other tools. The two repositories are related in theme but are distinct projects.
 
 ## Core Model
 
-The repo separates selection from application. The agent searches the full catalog, picks exact skill IDs, and validates the resulting stack in memory. AAS Core records that choice and can preview the plan, but it does not rank skills or certify semantic fit.
+The AAS Core repo separates selection from application. The agent searches the full catalog, picks exact skill IDs, and validates the resulting stack in memory. AAS Core records that choice and can preview the plan, but it does not rank skills or certify semantic fit. The Antigravity Awesome Skills repo adds role-based bundles and ordered workflows as discovery and execution aids; its README presents these as curated guidance, not separate installations.
 
 That separation is the main design point:
 
@@ -48,3 +48,4 @@ This repo is useful when you want breadth, reproducibility, and a review step be
 - [Awesome Claude Skills](../claude-code-ecosystem/awesome-claude-skills.md)
 - [Superpowers](../ai-agent-harnesses/superpowers.md)
 - [Opencode Orchestration Layer](../opencode-ecosystem/opencode-orchestration.md)
+- [Anthropic Agent Skills](../claude-code-ecosystem/anthropics-skills.md)

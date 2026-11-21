@@ -21,3 +21,4 @@ These are single-platform measurements. The source does not provide formal Japan
 
 - [ROCm Whisper API](rocm-whisper-api.md)
 - [VibeVoice-ASR with ROCm and Docker](vibevoice-asr.md)
+- [Vexa](vexa.md) — a meeting-bot platform with a separate transcription deployment option.

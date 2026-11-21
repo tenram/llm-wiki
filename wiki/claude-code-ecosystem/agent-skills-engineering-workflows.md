@@ -1,18 +1,18 @@
 # Agent Skills Engineering Workflows
 
-> Sources: addyosmani, Unknown date
-> Raw: [Agent Skills: Production-Grade Engineering Workflows](../../raw/claude-code-ecosystem/2026-07-21-agent-skills-engineering-workflows.md)
+> Sources: addyosmani, Unknown date; addyosmani, 2026-11-11
+> Raw: [Agent Skills: Production-Grade Engineering Workflows](../../raw/claude-code-ecosystem/2026-07-21-agent-skills-engineering-workflows.md); [Agent Skills README](../../raw/claude-code-ecosystem/2026-11-11-agent-skills.md); [2026-11-21 source snapshot](../../raw/claude-code-ecosystem/2026-11-21-addyosmani-agent-skills.md)
 
 ## Overview
 
-`addyosmani/agent-skills` is a curated collection of 24 skills built on the Agent Skills format, aimed at a specific problem: AI coding agents default to shortcuts, skipping specs, tests, and security review in favor of fast prototype-quality output. The collection encodes senior-engineer workflow discipline (drawn in part from "Software Engineering at Google") as skills an agent can load, covering the entire software development lifecycle from specification through deployment.
+`addyosmani/agent-skills` is a curated collection of 25 skills built on the Agent Skills format, aimed at a specific problem: AI coding agents default to shortcuts, skipping specs, tests, and security review in favor of fast prototype-quality output. The collection encodes senior-engineer workflow discipline (drawn in part from "Software Engineering at Google") as skills an agent can load, covering the entire software development lifecycle from specification through deployment. The repository README describes 24 lifecycle skills plus the `using-agent-skills` meta-skill.
 
 ## Structure
 
 Two layers sit on top of the skills themselves:
 
-- **8 slash commands**, one per lifecycle phase: `/spec` (define requirements), `/plan` (break work into atomic tasks), `/build` (implement incrementally), `/test` (verify functionality), `/review` (quality gate before merge), `/webperf` (performance audit), `/code-simplify` (reduce complexity), `/ship` (deploy).
-- **24 skills** grouped by stage: Define (interview-me, idea-refine, spec-driven-development), Plan (planning-and-task-breakdown), Build (seven skills spanning implementation, testing, API design, context management), Verify (browser testing and debugging), Review (code review, simplification, security, performance), Ship (git workflow, CI/CD, deprecation, documentation, observability, launching).
+- **9 slash commands**, mapped to the lifecycle and quality work: `/spec` (define requirements), `/plan` (break work into atomic tasks), `/build` (implement incrementally), `/test` (verify functionality), `/constraints` (set the quality bar), `/review` (quality gate before merge), `/webperf` (performance audit), `/code-simplify` (reduce complexity), and `/ship` (deploy).
+- **25 skills** grouped by stage: Define (interview-me, idea-refine, spec-driven-development, constraint-driven-development), Plan (planning-and-task-breakdown), Build (implementation, testing, context, source, doubt, UI, and API design), Verify (browser testing and debugging), Review (code review, simplification, security, performance), Ship (git workflow, CI/CD, deprecation, documentation, observability, launching), plus the `using-agent-skills` meta-skill.
 - **4 specialist personas**: code reviewer, test engineer, security auditor, web performance auditor.
 
 ## Skill Anatomy
@@ -31,7 +31,7 @@ Specific engineering concepts are baked into individual skills: Hyrum's Law info
 
 ## Installation and Adoption
 
-Installed via the open skills CLI (`npx skills add addyosmani/agent-skills`), with tool-specific integrations for Claude Code, Cursor, Antigravity CLI, Gemini CLI, Windsurf, Codex, OpenCode, and GitHub Copilot. The adoption guide offers two paths: adopt the full lifecycle from day one on a greenfield project, or roll out incrementally on an existing codebase by prioritizing verification-stage skills first.
+Installed via the open skills CLI (`npx skills add addyosmani/agent-skills`), with tool-specific integrations for Claude Code, Cursor, Antigravity CLI, Gemini CLI, Windsurf, Codex, OpenCode, GitHub Copilot, Kiro, and other agents. The repository also documents native installation paths and local development through a clone. The adoption guide offers two paths: adopt the full lifecycle from day one on a greenfield project, or roll out incrementally on an existing codebase by prioritizing verification-stage skills first.
 
 Licensed MIT.
 

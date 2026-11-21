@@ -1,20 +1,23 @@
 # CrewAI
 
-> Sources: CrewAI, 2026-10-05
-> Raw: [CrewAI home](../../raw/ai-agents/crewai.md)
+> Sources: CrewAI, 2026-10-05; CrewAI, 2026-11-10
+> Raw: [CrewAI home](../../raw/ai-agents/crewai.md); [CrewAI README (2026-11-10 snapshot)](../../raw/ai-agents/2026-11-10-crewai.md)
 
 ## Overview
 
-CrewAI presents an enterprise platform for building and running agentic workflows. Its current positioning combines agent construction for business and technical teams with centralized governance for platform teams.
+CrewAI is an open-source Python framework for production-ready multi-agent workflows. Its current README centers on two complementary primitives: autonomous, role-based Crews and precise, event-driven Flows. The commercial AMP Suite adds a control plane for deployment, observability, governance, security, and enterprise support.
 
 ## Platform Positioning
 
-The site describes a unified build-and-runtime platform rather than only an agent library. It emphasizes governed deployment, reusable workflows, and support for both business builders and engineers. The site reports 450 million-plus agentic workflow runs per month, 4,000-plus weekly sign-ups, and use by 65% of the Fortune 500; these are vendor claims and should not be treated as independently verified metrics.
+Crews optimize for agent autonomy, delegation, specialized roles, and collaborative problem solving. Flows provide event triggers, state, branching, routing, deterministic Python logic, and checkpoints. The framework is intended to combine both: use autonomous collaboration where useful, then wrap it in explicit workflow control where production behavior needs to be predictable.
+
+The README also describes JSON-first project scaffolding, Python-native customization, tools, memory, knowledge, structured outputs, human input, MCP/A2A support, and optional official CrewAI skills for coding agents. AMP adds centralized tracing, a unified control plane, integrations, security controls, analytics, and cloud or on-premise deployment. Adoption and certification counts in the README are vendor claims.
 
 ## Practical Takeaway
 
-CrewAI is relevant when an organization needs a shared operating surface for agent development and production governance. The source does not provide enough implementation detail to evaluate its runtime architecture, pricing, or technical limits.
+CrewAI is relevant when an application needs more than one prompt or chatbot: multiple specialized agents, tools, structured outputs, human review, or workflows that combine autonomous reasoning with business logic. The README does not establish independent evidence for its performance claims, pricing, or technical limits.
 
 ## See Also
 
 - [Harness Design Principles](../ai-agent-harnesses/harness-design-principles.md)
+- [Sim](../ai-agent-harnesses/sim.md)

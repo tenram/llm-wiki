@@ -1,5 +1,17 @@
 # Wiki Log
 
+## [2026-11-15] ingest | Harness² and Modern Web Guidance
+- Updated: Harness Design Principles (Harness² cross-reference added)
+- Updated: Agent Skill Collections (Modern Web Guidance cross-reference added)
+
+## [2026-11-15] ingest | Experts, Agent Skill Collections, Omnigent, Ruvnet Agent Ecosystem, GPT Image 2 Skill, Aura Skills, WebGL Interaction Demos, Agent Project Management Skills, Typst, Rodin Socratic Dialogue Skill, and Anti-AI Slop Writing Guidance
+- Updated: Impeccable (new source snapshot)
+
+## [2026-11-11] ingest | Agent Skills Engineering Workflows
+
+## [2026-11-03] ingest | Dokploy
+- Updated: Compass
+
 ## [2026-10-10] ingest | Self-Hosted Budgeting and Personal Finance Apps
 
 ## [2026-10-10] ingest | Hermes Skills Ecosystem
@@ -243,3 +255,41 @@
 - Updated: Awesome Claude Skills (see-also cross-link added)
 - Updated: Hermes Skills Ecosystem (see-also cross-link added)
 - Updated: Hermes Agent (Nous Research) (see-also cross-link added)
+
+## [2026-10-19] ingest | AnythingLLM, Obot, and Hindsight
+- Updated: HybridRAG: Combining Knowledge Graphs and Vector Retrieval (Hindsight cross-link added)
+- Updated: Model Context Protocol (MCP) Overview (AnythingLLM, Obot, and Hindsight cross-links added)
+
+## [2026-10-19] ingest | Docmost and Outline
+- Updated: Mattermost (see-also cross-link added)
+
+## [2026-10-23] ingest | Apache AGE and DuckDB
+- Updated: Supabase (see-also cross-links added)
+
+## [2026-11-02] ingest | Paperclip, Mem0, and Hindsight
+- Updated: Hindsight: Agent Memory That Learns (new README snapshot and current integration/deployment details)
+- Updated: HybridRAG: Combining Knowledge Graphs and Vector Retrieval (Mem0 cross-link added)
+
+## [2026-11-10] ingest | Sim, Impeccable, Paperclip, Build Your Own X, Antigravity Awesome Skills, OpenHands Agent Canvas, CrewAI, AnythingLLM, Vexa, and ThinkRail
+- Updated: Paperclip (current README snapshot and feature/deployment details)
+- Updated: Harness Design Principles (new harness examples cross-linked)
+- Updated: Anthropic Agent Skills (Impeccable and cross-tool skills references added)
+- Updated: Agentic Awesome Skills (current cross-tool catalog snapshot merged)
+- Updated: CrewAI (Crews, Flows, current scaffolding, and AMP details)
+- Updated: AnythingLLM (current routing, memories, agent flows, and provider details)
+- Updated: ROCm Whisper API (Vexa cross-reference added)
+- Updated: faster-whisper on AMD Strix Halo (Vexa cross-reference added)
+- Updated: VibeVoice-ASR with ROCm and Docker (Vexa cross-reference added)
+
+## [2026-11-21] ingest | Harness², Impeccable, KnockOutEZ, tmux, AI for UI, Meetily, agent infrastructure, WebGL experiments, Astro, Hex Knowledge Engine, GBrain, Addy Osmani Agent Skills, GoDaddy gddy, and Cloudflare OpenCode
+- Updated: Harness² (new source snapshot)
+- Updated: Impeccable (new source snapshot)
+- Updated: Agent Skills Engineering Workflows (new source snapshot)
+- Updated: Agent Skill Collections (AI for UI and Addy Osmani source snapshots)
+- Updated: WebGL Interaction Demos (cross-reference added)
+- Updated: Vexa (Meetily cross-reference added)
+- Updated: HybridRAG: Combining Knowledge Graphs and Vector Retrieval (Hex Knowledge Engine cross-reference added)
+- Updated: Hindsight: Agent Memory That Learns (Hex Knowledge Engine cross-reference added)
+
+## [2026-11-21] ingest | Cursor pstack skills
+- Updated: Agent Skill Collections (new Cursor pstack source snapshot)

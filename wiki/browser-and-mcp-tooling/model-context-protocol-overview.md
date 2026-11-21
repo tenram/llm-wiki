@@ -30,3 +30,6 @@ On Claude Desktop specifically, MCP servers install as single-click "desktop ext
 - [Anysite MCP](anysite-mcp.md)
 - [AnythingMCP (HelpCode)](helpcode-anythingmcp.md)
 - [FastMCP](fastmcp.md)
+- [Obot](../ai-agents/obot.md) — governed MCP and LLM gateways, registries, and audit controls.
+- [AnythingLLM](../ai-agents/anythingllm.md) — local-first AI workspace with MCP compatibility.
+- [Hindsight: Agent Memory That Learns](../agent-memory-systems/hindsight.md) — per-bank MCP endpoint for agent memory operations.

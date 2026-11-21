@@ -21,3 +21,4 @@ The source is a deployment recipe, not a benchmark or a security guide. GPU comp
 
 - [faster-whisper on AMD Strix Halo](faster-whisper-rocm-strix-halo.md)
 - [VibeVoice-ASR with ROCm and Docker](vibevoice-asr.md)
+- [Vexa](vexa.md) — meeting capture and transcription platform that can use a self-hosted transcription service.

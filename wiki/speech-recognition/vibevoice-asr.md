@@ -16,3 +16,7 @@ Inside the container, the author installs the ROCm fork of Flash Attention with 
 ## Source Status
 
 This is a user-contributed discussion, not an official Microsoft installation guide. Treat the image tag, package compatibility, and command sequence as a starting point to verify against current ROCm and VibeVoice releases.
+
+## See Also
+
+- [Vexa](vexa.md)

@@ -46,3 +46,4 @@ Compass sits alongside other self-hosted dashboards (e.g. [Beszel](../server-mon
 
 - [Beszel](../server-monitoring/beszel.md) — lightweight hub+agent monitoring (metrics, not service catalog).
 - [copyparty](copyparty.md) — another self-hosted service in this topic.
+- [Dokploy](dokploy.md) — self-hosted VPS application and database deployment platform.

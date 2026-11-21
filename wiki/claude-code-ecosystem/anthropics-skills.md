@@ -1,6 +1,6 @@
 # Anthropic Agent Skills
 
-> Sources: Anthropic, Unknown date; agentskills.io, Unknown date; Bibek Poudel, Unknown date
+> Sources: Anthropic, Unknown date; agentskills.io, Unknown date; Bibek Poudel, Unknown date; Cursor and Addy Osmani collections, 2026-11-15
 > Raw: [anthropics/skills](../../raw/claude-code-ecosystem/anthropics-skills.md); [Specification](../../raw/claude-code-ecosystem/2026-07-13-agent-skills-specification.md); [The SKILL.md Pattern](../../raw/claude-code-ecosystem/skill-md-pattern.md)
 
 ## Overview
@@ -61,3 +61,6 @@ Bibek Poudel's summary of the pattern restates the spec in blunter, activation-f
 - [Agent Skills Platform](../ai-agent-harnesses/agent-skills-platform.md) — builds on the agentskills.io spec to test and govern skills.
 - [ASD-STE100 Skill](asd-ste100-skill.md)
 - [i-have-adhd](i-have-adhd.md)
+- [Impeccable](impeccable.md) — design-focused commands and deterministic UI checks for coding agents.
+- [Agentic Awesome Skills](../antigravity-ecosystem/agentic-awesome-skills.md) — cross-tool skill catalogs built on the open format.
+- [Agent Skill Collections](agent-skill-collections.md) — current Cursor and Addy Osmani examples of task-matched collections.

@@ -17,7 +17,7 @@ Frameworks and essays on the scaffolding (tools, state control, orchestration) a
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [Awesome Harness Engineering](ai-agent-harnesses/awesome-harness-engineering.md) | Curated resource list defining harness engineering as the primary lever for agent success | 2026-09-30 |
-| [Harness Design Principles](ai-agent-harnesses/harness-design-principles.md) | Five-component harness model: rules, skills, hooks, MCP, memory | 2026-09-30 |
+| [Harness Design Principles](ai-agent-harnesses/harness-design-principles.md) | Five-component harness model: rules, skills, hooks, MCP, memory | 2026-11-10 |
 | [oh-my-claudecode](ai-agent-harnesses/oh-my-claudecode.md) | Zero-config Claude Code plugin adding 32 specialized agents and parallel execution modes | 2026-07-11 |
 | [Superpowers](ai-agent-harnesses/superpowers.md) | Skills framework enforcing brainstorm-plan-TDD-review workflow before coding | 2026-07-11 |
 | [Life-Harness](ai-agent-harnesses/life-harness.md) | Training-free runtime harness adaptation improving frozen-model agent performance | 2026-07-11 |
@@ -38,6 +38,17 @@ Frameworks and essays on the scaffolding (tools, state control, orchestration) a
 | [cmux](ai-agent-harnesses/cmux.md) | Native macOS Ghostty-based terminal workspace for AI agents with visible splits, notifications, embedded browser automation, SSH, hooks, and CLI/socket control | 2026-10-10 |
 | [Agent Skills Platform](ai-agent-harnesses/agent-skills-platform.md) | Turns a workflow into a tested, installable agent skill and governs its lifecycle through a user-defined marketplace (evidence, discovery, rollback, quarantine, 17-platform distribution) | 2026-10-16 |
 | [Hermes Incident Commander](ai-agent-harnesses/hermes-incident-commander.md) | Autonomous SRE agent that detects, diagnoses, and self-heals incidents via Hermes (memory, skill auto-creation, cron, gateway, subagents, RL), plus a safe standalone watchdog with an allow-listed remediation model | 2026-10-16 |
+| [Paperclip](ai-agent-harnesses/paperclip.md) | Self-hosted control plane for AI-agent organizations: goals, org charts, tasks, budgets, approvals, skills, connections, and durable activity | 2026-11-10 |
+| [OpenHands Agent Canvas](ai-agent-harnesses/openhands-agent-canvas.md) | Self-hosted developer control center for coding agents and automations across local, remote, cloud, and ACP-compatible backends | 2026-11-10 |
+| [Sim](ai-agent-harnesses/sim.md) | Workspace for visually, conversationally, or programmatically building, deploying, and governing AI agents and workflows | 2026-11-10 |
+| [ThinkRail](ai-agent-harnesses/thinkrail.md) | Agentic IDE around pi with isolated Git worktrees, durable spec graphs, reusable skills, MCP controls, and reviewable changes | 2026-11-10 |
+| [Harness²](ai-agent-harnesses/harness2.md) | Google Research framework for recursively refining agent harnesses through propose–probe–compose experiments and persistent lessons | 2026-11-21 |
+| [Experts](ai-agent-harnesses/experts.md) | JavaScript assistant/tool runtime with lifecycle hooks, delegation, streaming, and OpenAI Assistants integration | 2026-11-15 |
+| [Omnigent](ai-agent-harnesses/omnigent.md) | End-to-end agent harness tests for local servers, SDKs, CLIs, terminals, authentication, and MCP bridges | 2026-11-15 |
+| [Ruvnet Agent Ecosystem](ai-agent-harnesses/ruvnet-agent-ecosystem.md) | Profile-level index of ruflo, RuView, and related agent, orchestration, memory, DevOps, and sensing projects | 2026-11-15 |
+| [KnockOutEZ and Wigolo](ai-agent-harnesses/knockoutez-profile.md) | Towhid Khan’s developer profile, centered on local-first agent research tooling and related infrastructure projects | 2026-11-21 |
+| [Agent Infrastructure as the Product Layer](ai-agent-harnesses/agent-infrastructure-briefing.md) | Dated briefing on memory, orchestration, management, observability, and accountability as the agent product layer | 2026-11-21 |
+| [OpenCode + Cloudflare](ai-agent-harnesses/cloudflare-opencode.md) | Layered OpenCode integration using Cloudflare Skills, MCP, Wrangler, CLI, and agent-friendly documentation | 2026-11-21 |
 
 ## claude-code-ecosystem
 
@@ -45,20 +56,26 @@ Skills, plugins, and workflow integrations built on or around Claude Code.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [Anthropic Agent Skills](claude-code-ecosystem/anthropics-skills.md) | Anthropic's reference spec and examples for dynamically-loaded Claude skills, plus the formal open agentskills.io format specification | 2026-10-16 |
+| [Anthropic Agent Skills](claude-code-ecosystem/anthropics-skills.md) | Anthropic's reference spec and examples for dynamically-loaded Claude skills, plus the formal open agentskills.io format specification | 2026-11-15 |
 | [Academic Research Skills](claude-code-ecosystem/academic-research-skills.md) | Multi-agent research-to-publication pipeline with non-bypassable human oversight gates | 2026-07-11 |
 | [UI UX Pro Max Skill](claude-code-ecosystem/ui-ux-pro-max-skill.md) | BM25-ranked design intelligence skill covering styles, palettes, typography, and full design-system generation | 2026-07-11 |
 | [article-writing-skills](claude-code-ecosystem/article-writing-skills.md) | System prompts emulating engineers' explanatory thinking patterns, not their prose style | 2026-07-11 |
 | [Claude How To](claude-code-ecosystem/claude-howto.md) | Ten-module practical guide to Claude Code features and workflows | 2026-07-11 |
 | [Claude Design](claude-code-ecosystem/claude-design.md) | Conversational design canvas integrated with org design systems and Claude Code | 2026-07-11 |
 | [Claude Code GitHub CI Integration](claude-code-ecosystem/claude-code-github-ci-integration.md) | Two real-world setups wiring the Claude GitHub App into PR/issue workflows | 2026-07-11 |
-| [Agent Skills Engineering Workflows](claude-code-ecosystem/agent-skills-engineering-workflows.md) | 24-skill collection encoding senior-engineer discipline (spec, plan, build, test, review, ship) as agent-loadable workflows | 2026-07-21 |
+| [Agent Skills Engineering Workflows](claude-code-ecosystem/agent-skills-engineering-workflows.md) | 25-skill collection encoding senior-engineer discipline (spec, plan, build, test, review, ship) as agent-loadable workflows | 2026-11-21 |
 | [Awesome Claude Skills](claude-code-ecosystem/awesome-claude-skills.md) | 13-category curated list of third-party Claude Skills across dev, data, science, and media domains | 2026-10-16 |
 | [Awesome Claude Code](claude-code-ecosystem/awesome-claude-code.md) | The most-starred Claude Code awesome list (55.8k stars) covering skills, agents, status lines, tooling, and plugins; README generated from a structured resource table | 2026-10-16 |
 | [Self-Improving AI Skills](claude-code-ecosystem/self-improving-ai-skills.md) | Pattern for compounding skill quality via a learnings.md feedback loop, without model fine-tuning | 2026-07-31 |
 | [Claude Agent SDK: Subagents](claude-code-ecosystem/agent-sdk-subagents.md) | Python/TypeScript library exposing Claude Code's agent loop, tools, and subagent spawning outside the CLI | 2026-07-31 |
 | [i-have-adhd](claude-code-ecosystem/i-have-adhd.md) | Cross-agent output style skill that leads with actions, suppresses tangents, caps lists, and ends with one next step | 2026-09-30 |
 | [ASD-STE100 Skill](claude-code-ecosystem/asd-ste100-skill.md) | Aerospace controlled-language rules repurposed for unambiguous agent-facing text | 2026-10-05 |
+| [Impeccable](claude-code-ecosystem/impeccable.md) | Design vocabulary, UI review commands, live iteration, and deterministic checks for coding agents | 2026-11-21 |
+| [Agent Skill Collections](claude-code-ecosystem/agent-skill-collections.md) | Cursor, Addy Osmani, and Google Chrome collections showing task-matched SKILL.md workflows and activation metadata | 2026-11-21 |
+| [GPT Image 2 Skill](claude-code-ecosystem/gpt-image2-skill.md) | Gallery-first, CLI-first image generation and editing skill with attribution, installation, and animation safeguards | 2026-11-15 |
+| [Rodin Socratic Dialogue Skill](claude-code-ecosystem/rodin-socratic-dialogue.md) | French-language prompt for evidence-aware Socratic discussion and anti-echo-chamber questioning | 2026-11-15 |
+| [Anti-AI Slop Writing Guidance](claude-code-ecosystem/anti-ai-slop-writing-guidance.md) | Replacement-table editing aid for reducing generic, inflated, and unsupported AI phrasing | 2026-11-15 |
+| [AI for UI Skills](claude-code-ecosystem/ai-for-ui-skills.md) | Emil Kowalski’s 19-skill catalog for interface vocabulary, motion, prototyping, performance, and review | 2026-11-21 |
 
 ## ai-agents
 
@@ -66,7 +83,8 @@ Platforms and patterns for building, running, and governing AI agents.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [CrewAI](ai-agents/crewai.md) | Enterprise agent build-and-runtime platform positioned around unified development and centralized governance | 2026-10-05 |
+| [CrewAI](ai-agents/crewai.md) | Python framework combining autonomous Crews with event-driven Flows for production multi-agent automation, plus an enterprise control plane | 2026-11-10 |
+| [AnythingLLM](ai-agents/anythingllm.md) | Local-first all-in-one AI workspace for documents, agents, model routing, memories, MCP, vector stores, and multi-user deployments | 2026-11-10 |
 
 ## antigravity-ecosystem
 
@@ -74,7 +92,8 @@ Agent-first skill catalogs and Antigravity-compatible installation surfaces.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [Agentic Awesome Skills](antigravity-ecosystem/agentic-awesome-skills.md) | Large local skill catalog with AAS Core, exact stack validation, immutable plan preview, and Antigravity support | 2026-08-14 |
+| [Agentic Awesome Skills](antigravity-ecosystem/agentic-awesome-skills.md) | Cross-tool agent skill catalogs with exact-stack validation, immutable plan preview, bundles, workflows, and Antigravity support | 2026-11-10 |
+| [Aura Skills](antigravity-ecosystem/aura-skills.md) | Client-rendered Aura AI website-builder skills page; raw capture exposes marketing metadata but not the catalog | 2026-11-15 |
 
 ## agent-memory-systems
 
@@ -85,11 +104,15 @@ Persistent memory and retrieval architectures for AI agents.
 | [RightMemory](agent-memory-systems/rightmemory.md) | Deterministic, file-based tree+graph memory for agent teams, explicitly non-embedding | 2026-07-11 |
 | [Open Brain (OB1)](agent-memory-systems/ob1.md) | Self-hosted unified vector memory layer shared across AI tools via pgvector and MCP | 2026-07-11 |
 | [Codebase Memory and Code Graphs](agent-memory-systems/codebase-memory-and-code-graphs.md) | Code-aware memory pattern turning repositories into persistent graph structure; compares codebase-memory-mcp (158-language Cypher-queryable graph MCP) and CodeGraph (Rust-kernel single-tool explore) | 2026-08-24 |
-| [HybridRAG System](agent-memory-systems/hybridrag-system.md) | Combines vector similarity search with knowledge-graph retrieval in one RAG pipeline, across three implementations plus a store-comparison and a live-update construction pattern | 2026-09-30 |
+| [HybridRAG System](agent-memory-systems/hybridrag-system.md) | Combines vector similarity search with knowledge-graph retrieval in one RAG pipeline, across three implementations plus a store-comparison and a live-update construction pattern | 2026-11-21 |
 | [Hermes Agent](agent-memory-systems/hermes-agent.md) | Nous Research's open-source multi-platform desktop agent with unified persistent memory, sandboxed subagents, and layered built-in/optional skills | 2026-10-16 |
 | [Town](agent-memory-systems/town.md) | Commercial personal-assistant SaaS pairing users with a learning "Townie" for recurring work automation | 2026-07-21 |
 | [Graphify](agent-memory-systems/graphify.md) | Skill/CLI turning a whole project (code, docs, PDFs, images, video) into a local tree-sitter knowledge graph with explained EXTRACTED/INFERRED edges and MCP serving | 2026-09-17 |
 | [RecallMax](agent-memory-systems/recallmax.md) | Local-first TypeScript library and CLI that compresses conversations and project history into structured agent memory without an LLM call | 2026-09-30 |
+| [Mem0](agent-memory-systems/mem0.md) | Application memory layer for persistent user, session, and agent state with semantic, keyword, entity, and temporal retrieval | 2026-11-02 |
+| [Hindsight: Agent Memory That Learns](agent-memory-systems/hindsight.md) | Agent memory system combining evidence-backed observations, temporal and graph-aware retrieval, reflective synthesis, and persistent mental models | 2026-11-21 |
+| [Hex Knowledge Engine](agent-memory-systems/hex-knowledge-engine.md) | Beta graph-based context layer that curates agent findings, reconciles duplicates, and exposes contested knowledge | 2026-11-21 |
+| [GBrain](agent-memory-systems/gbrain.md) | Shared team memory, connected-account permissions, and scheduled skills presented through existing AI tools | 2026-11-21 |
 
 ## browser-and-mcp-tooling
 
@@ -105,7 +128,7 @@ Browser automation and the Model Context Protocol ecosystem.
 | [FastMCP](browser-and-mcp-tooling/fastmcp.md) | Prefect's Pythonic framework for building MCP servers, clients, and in-conversation apps; the standard application layer powering most MCP servers | 2026-10-16 |
 | [Stealth Browser Automation](browser-and-mcp-tooling/stealth-browser-automation.md) | Playwright and Puppeteer stealth layers for lower-fingerprint browser automation | 2026-10-13 |
 | [DevCDP](browser-and-mcp-tooling/devcdp.md) | MCP server giving assistants real Chrome DevTools access (console, network, DOM, source maps, debugger, discovery) for live debugging, with multi-session tab ownership | 2026-10-13 |
-| [Model Context Protocol Overview](browser-and-mcp-tooling/model-context-protocol-overview.md) | Open standard connecting AI apps to external data, tools, and workflows | 2026-10-16 |
+| [Model Context Protocol Overview](browser-and-mcp-tooling/model-context-protocol-overview.md) | Open standard connecting AI apps to external data, tools, and workflows | 2026-10-19 |
 | [Deliberation](browser-and-mcp-tooling/deliberation-mcp.md) | MCP server for consulting GPT/Gemini/Grok/OpenRouter models as reviewers, with a bias-guarded consensus loop | 2026-07-31 |
 | [MCP Reference Servers](browser-and-mcp-tooling/mcp-reference-servers.md) | Steering-group-maintained reference MCP server implementations | 2026-07-11 |
 | [LambdaTest Puppeteer Skill](browser-and-mcp-tooling/lambdatest-puppeteer-skill.md) | Agent skill teaching Puppeteer patterns for scraping, PDF/screenshot capture, and E2E testing | 2026-07-21 |
@@ -119,6 +142,7 @@ Open core and self-hosted collaboration suites.
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [Mattermost](collaboration-platforms/mattermost.md) | Open core collaboration platform with chat, automation, calling, screen sharing, and AI integration | 2026-08-28 |
+| [Docmost and Outline](collaboration-platforms/docmost-and-outline.md) | Comparison of two collaborative knowledge-base platforms: Docmost's AGPL core and broad wiki features versus Outline's React/Node.js product and BSL 1.1 license | 2026-10-19 |
 
 ## messaging-apis
 
@@ -175,6 +199,7 @@ Tools for converting documents into structured, LLM-usable formats.
 | [newspaper](document-processing/newspaper.md) | Python article extractor for page text, metadata, authors, and images | 2026-08-18 |
 | [LlamaIndex (run-llama)](document-processing/llamaindex.md) | Document processing platform for AI: cloud LlamaParse OCR/extract plus open-source LiteParse (Rust), LlamaAgents, and SDKs | 2026-09-17 |
 | [Gotenberg](document-processing/gotenberg.md) | Docker-based HTTP API converting HTML/URL/Markdown/Office documents to PDF via Chromium and LibreOffice, plus PDF merge/split/watermark/encrypt and PDF/A, PDF/UA | 2026-10-13 |
+| [Typst](document-processing/typst.md) | Open-source typesetting project whose contribution guide stresses small, discussed, human-authored changes | 2026-11-15 |
 
 ## research-and-training
 
@@ -221,10 +246,12 @@ Opencode terminal coding agent and its plugin/orchestration ecosystem.
 
 ## backend-infrastructure
 
-Hosted backend platforms used as infrastructure by AI/agent tooling.
+Database and backend platforms used as infrastructure by AI/agent tooling.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
+| [Apache AGE](backend-infrastructure/apache-age.md) | PostgreSQL extension combining relational storage with graph data and openCypher queries | 2026-10-23 |
+| [DuckDB](backend-infrastructure/duckdb.md) | In-process analytical database that queries local, remote, and attached database data without a separate server | 2026-10-23 |
 | [Supabase](backend-infrastructure/supabase.md) | Open-source Postgres development platform (auth, storage, realtime, vector tooling) built on managed PostgreSQL | 2026-07-31 |
 
 ## dev-tools
@@ -235,6 +262,11 @@ General-purpose developer utilities and browser-based tools.
 |---------|---------|---------|
 | [SQL Fiddle](dev-tools/sqlfiddle.md) | Web-based multi-dialect SQL playground for practicing and sharing queries | 2026-07-31 |
 | [Mermaid Live Editor](dev-tools/mermaid-live-editor.md) | Online flowchart and diagram editor; fetched page exposed only the client-rendered title | 2026-10-05 |
+| [Build Your Own X](dev-tools/build-your-own-x.md) | Curated catalog of step-by-step resources for recreating technologies from scratch across languages and technology areas | 2026-11-10 |
+| [Modern Web Guidance](dev-tools/modern-web-guidance.md) | Browser-platform skill collection with compatibility guidance, legacy-pattern scans, and token-efficient retrieval for coding agents | 2026-11-15 |
+| [tmux for Local Development](dev-tools/tmux-for-local-development.md) | Sessions, windows, panes, restoration, and keyboard-first terminal workspaces for local development | 2026-11-21 |
+| [Astro Getting Started](dev-tools/astro-getting-started.md) | Official Astro documentation map covering project setup, components, islands, content, routing, integrations, and deployment | 2026-11-21 |
+| [GoDaddy gddy Agent Skill](dev-tools/godaddy-gddy-agent-skill.md) | Agent-operated domain and DNS CLI workflow with dry runs, account checks, and purchase confirmation | 2026-11-21 |
 
 ## web-standards
 
@@ -273,9 +305,11 @@ Open-source speech-to-text models and AMD ROCm deployment recipes.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [ROCm Whisper API](speech-recognition/rocm-whisper-api.md) | Dockerized Whisper HTTP service for AMD GPUs with ROCm device passthrough and configurable models | 2026-10-05 |
-| [faster-whisper on AMD Strix Halo](speech-recognition/faster-whisper-rocm-strix-halo.md) | No-source-build ROCm recipe for faster-whisper on gfx1151 with reported English and Japanese benchmarks | 2026-10-05 |
-| [VibeVoice-ASR with ROCm and Docker](speech-recognition/vibevoice-asr.md) | Community Docker deployment note for Microsoft VibeVoice-ASR on ROCm with AMD Flash Attention | 2026-10-05 |
+| [ROCm Whisper API](speech-recognition/rocm-whisper-api.md) | Dockerized Whisper HTTP service for AMD GPUs with ROCm device passthrough and configurable models | 2026-11-10 |
+| [faster-whisper on AMD Strix Halo](speech-recognition/faster-whisper-rocm-strix-halo.md) | No-source-build ROCm recipe for faster-whisper on gfx1151 with reported English and Japanese benchmarks | 2026-11-10 |
+| [VibeVoice-ASR with ROCm and Docker](speech-recognition/vibevoice-asr.md) | Community Docker deployment note for Microsoft VibeVoice-ASR on ROCm with AMD Flash Attention | 2026-11-10 |
+| [Vexa](speech-recognition/vexa.md) | Open-source meeting bots and real-time speaker-attributed transcription with self-hosted agent workflows and Markdown knowledge | 2026-11-21 |
+| [Meetily](speech-recognition/meetily.md) | Local-first open-source meeting assistant with on-device Whisper or Parakeet transcription and optional summaries | 2026-11-21 |
 
 ## fact-checking
 
@@ -303,6 +337,7 @@ Self-hosted file servers, dashboards, and service-catalog tools.
 |---------|---------|---------|
 | [Compass](self-hosted/compass.md) | Apache-2.0 service-catalog landing page that auto-discovers services, dashboards, and documents from Docker, Kubernetes, Tailscale, Headscale, static config, and a JSON API | 2026-10-16 |
 | [copyparty](self-hosted/copyparty.md) | Single-file portable Python file server (47.1k stars) speaking HTTP/WebDAV/SFTP/FTP/TFTP/SMB, with resumable uploads, dedup, media indexing, thumbnails, and a browser file manager | 2026-10-16 |
+| [Dokploy](self-hosted/dokploy.md) | Self-hostable VPS PaaS for applications and databases, with Docker Compose, backups, Traefik routing, multi-node Docker Swarm, monitoring, logs, metrics, and CLI/API management | 2026-11-03 |
 
 ## people
 
@@ -319,3 +354,20 @@ Privacy-preserving and de-identification tooling for AI and data workflows.
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [Data Privacy Stack (Presidio)](data-privacy/data-privacy-stack.md) | GitHub org for AI-native privacy tooling; flagship Presidio is an MIT Python framework for detecting, redacting, and anonymizing PII across text, images, and structured data | 2026-10-16 |
+
+## frontend-and-interaction-demos
+
+Browser-based visual experiments and interaction techniques using DOM, WebGL, shaders, and audio simulation.
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [WebGL Interaction Demos](frontend-and-interaction-demos/webgl-interaction-demos.md) | Atmospheric depth gallery, physical vinyl playback simulation, and gooey sticky-menu shader patterns | 2026-11-21 |
+| [Physical and Deformable Web Experiments](frontend-and-interaction-demos/physical-and-deformable-web-experiments.md) | Lookbook transitions, a reusable 3D page-turning magazine, and physical CD browsing built with WebGL stacks | 2026-11-21 |
+
+## project-management
+
+Agent skills for product planning, execution, facilitation, and GitHub project-board operations.
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [Agent Project Management Skills](project-management/agent-project-management-skills.md) | PRDs, OKRs, roadmaps, prioritization, sprint and stakeholder workflows, plus constrained GitHub Projects operations | 2026-11-15 |

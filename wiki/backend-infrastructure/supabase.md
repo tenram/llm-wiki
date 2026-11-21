@@ -18,3 +18,5 @@ Supabase appears in this wiki primarily as infrastructure other tools build on: 
 ## See Also
 
 - [HybridRAG System](../agent-memory-systems/hybridrag-system.md)
+- [Apache AGE](apache-age.md) — PostgreSQL extension adding graph storage and Cypher queries.
+- [DuckDB](duckdb.md) — embedded analytical database that can query PostgreSQL and other sources.

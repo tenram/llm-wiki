@@ -32,3 +32,7 @@ The README points to:
 ## License and Release Model
 
 Mattermost ships a compiled MIT-licensed version each month while the upstream platform repo remains the primary development source.
+
+## See Also
+
+- [Docmost and Outline](docmost-and-outline.md) - collaborative wiki and documentation platforms.

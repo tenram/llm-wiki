@@ -32,3 +32,6 @@ The `Hybrid_rag_simulation` repository reinforces the pattern as a working proto
 - [OB1](ob1.md)
 - [RightMemory](rightmemory.md)
 - [RecallMax](recallmax.md) — context compression rather than graph-plus-vector retrieval.
+- [Hindsight: Agent Memory That Learns](hindsight.md) — production-oriented memory system combining vector, keyword, graph, temporal, and reflective retrieval.
+- [Mem0](mem0.md) — application memory layer combining semantic, keyword, entity, and temporal retrieval.
+- [Hex Knowledge Engine](hex-knowledge-engine.md) — graph-first context reuse with curation and contested knowledge.
